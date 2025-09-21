@@ -3,12 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "env-cmd -f .env.prod next dev",
-    "build:dev": "env-cmd -f .env.prod next build",
-    "dev:prod": "env-cmd -f .env next dev --turbopack",
-    "build": "env-cmd -f .env next build",
-    "build:prod": "env-cmd -f .env next build --turbopack",
-    "start": "env-cmd -f .env next start",
+   "dev": "env-cmd -f .env next dev",
+    "build:dev": "env-cmd -f .env next build",
+    "dev:prod": "env-cmd -f .env.prod next dev --turbopack",
+    "build": "env-cmd -f .env.prod next build",
+    "build:prod": "env-cmd -f .env.prod next build --turbopack",
+    "start": "env-cmd -f .env.prod next start",
     "lint": "eslint ."
   },
   "dependencies": {
