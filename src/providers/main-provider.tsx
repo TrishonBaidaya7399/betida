@@ -26,7 +26,7 @@ const MainProvider = ({ children }: { children: React.ReactNode }) => {
               }`}
             >
               <AppHeader />
-              <main className="app-container">{children}</main>
+              <main>{children}</main>
             </div>
           </div>
         </Suspense>
