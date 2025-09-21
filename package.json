@@ -3,14 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-   "dev": "next dev --turbopack",
-    "build:dev": "next build",
-    "dev:prod": "env-cmd -f .env.prod next dev --turbopack",
-    "build": "next build",
-    "build:prod": "env-cmd -f .env.prod next build",
+    "dev": "next dev --turbopack",
+    "build": "next build --turbopack",
     "start": "next start",
-    "start:prod": "env-cmd -f .env.prod next start",
-    "lint": "eslint ."
+    "lint": "eslint"
   },
   "dependencies": {
     "@radix-ui/react-slot": "^1.2.3",
